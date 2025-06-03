@@ -1,0 +1,5 @@
+Código iniciar.c foi compilado para "iniciar" e esta dentro de /usr/local/bin/ 
+Código central.c foi compilado para "central" e esta dentro de /usr/local/bin/WiringPi
+
+executável iniciar sendo chamado pelo rc.local - /etc/rc.local para iniciar automaticamente com a Raspberry
+executável central sendo chamado pelo systemd - /etc/systemd/system/central.services para iniciar como serviço com a Raspberry, facilitando a manutenção.
