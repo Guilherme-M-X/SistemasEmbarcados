@@ -1,0 +1,1 @@
+aarch64-linux-gnu-gcc "programa.c" -o "meu_programa"

@@ -26,7 +26,7 @@ void pirHandler() {
 }
 
 void gasHandler() {
-    if (digitalRead(SENSOR_GAS) == HIGH) {
+    if (digitalRead(SENSOR_GAS) == LOW) {
         digitalWrite(BUZZER, HIGH);        // Gás detectado
     } else {
         digitalWrite(BUZZER, LOW);         // Sem gás
